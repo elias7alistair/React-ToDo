@@ -58,7 +58,7 @@ class AddCard extends Component {
               name="taskName"
               type="text"
               onChange={this.updateChange}
-              placeholder="addText"
+              placeholder="Task Name"
               id="name"
               value={this.state.taskName}
               onKeyPress={this.handleKeyPress}

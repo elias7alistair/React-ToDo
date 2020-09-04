@@ -6,7 +6,7 @@ import holder from "./holder.jpg";
 const DisplayCard = ({ id, name, description,taskDone, deleteCard,cardStrike }) => {
   
   return (
-    <div className="col-sm-4">
+    <div className="cardAlign col-sm-4">
     
       <Card className="displayCard" style={{ width: "18rem" }}>
         <Card.Img variant="top" src={holder} />

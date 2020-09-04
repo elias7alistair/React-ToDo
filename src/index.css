@@ -83,3 +83,30 @@ code {
 .searchBox input{
   float: right;
 }
+
+/*small phones to small tablets: 481 to 767px  */
+@media only screen and (max-width: 480px) and (max-width: 767px){
+
+  
+
+  h1{
+    font-size : 42px !important;
+  }
+
+  .searchBox{
+    height: 110px;
+  }
+
+  .searchBox h2{
+    width: 120px;
+    margin: 20px;
+  }
+
+  .displayCard *{
+    margin: 0px;
+  }
+  .displayCard img{
+    height: 25vh;
+  }
+ 
+}
