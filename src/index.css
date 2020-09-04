@@ -85,7 +85,7 @@ code {
 }
 
 /*small phones to small tablets: 481 to 767px  */
-@media only screen and (max-width: 480px) and (max-width: 767px){
+@media only screen and (max-width: 480px){
 
   
 
@@ -95,6 +95,9 @@ code {
 
   .searchBox{
     height: 110px;
+  }
+  .searchBox input{
+    width: 160px;
   }
 
   .searchBox h2{
