@@ -109,4 +109,9 @@ code {
     height: 25vh;
   }
  
+  .container .cardAlign{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
 }
